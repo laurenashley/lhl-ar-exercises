@@ -21,7 +21,7 @@ whistler = Store.create({
   :womens_apparel => false
 })
 
-yaletwon = Store.create({ 
+yaletown = Store.create({ 
   :name => "Yaletown",
   :annual_revenue => 430000,
   :mens_apparel => true,
