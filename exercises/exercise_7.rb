@@ -12,3 +12,9 @@ puts "----------"
 # Your code goes here ...
 
 @new_store_name = gets.chomp
+
+new_store = Store.create({
+  :name => @new_store_name
+})
+
+puts new_store.errors.details
